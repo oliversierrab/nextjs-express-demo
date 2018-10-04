@@ -18,6 +18,14 @@ class Navbar extends Component {
             <a title='API'>API</a>
           </Link>
         </div>
+        <style jsx>{`
+          a {
+            padding: 10px;
+            text-decoration: none;
+            color: green;
+          }
+        `}
+        </style>
       </nav>
     )
   }

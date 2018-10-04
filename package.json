@@ -4,14 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "next" : "next"
+    "dev": "nodemon server/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.16.3",
     "next": "^7.0.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.1.5"
   }
 }
